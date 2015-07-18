@@ -27,6 +27,7 @@ angular.module('starter.controllers', [])
 
 })
 
+// BOOKINGS CONTROLLER
 .controller('BookingsCtrl', function ($scope) {
    $scope.today = function() {
      $scope.dt = new Date();
